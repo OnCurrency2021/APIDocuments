@@ -21,7 +21,8 @@
        "end":"12:00"
     },
     "cost":"200",
-    "status" : "active",}
+    "status" : "active"
+}
 ```
 
 #### Response
@@ -32,7 +33,7 @@
   "data": {
      "id":"123"
   },
-  "message": "new service has created"
+  "message": "new order has created"
 }
 ```
 
