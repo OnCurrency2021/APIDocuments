@@ -25,6 +25,8 @@
 }
 ```
 
+订单状态：active 和 finished
+
 #### Response
 - Body
 ```
@@ -67,8 +69,7 @@
        "end":"12:00"
     },
     "cost":"200",
-    "status" : "active",
-    "rating" : "4.6",
+    "status" : "active"
   },
   "message": "OK"
 }
@@ -85,8 +86,7 @@
 - Body:
 ```
 {
-    "id":"123",
-    "rating":4.6,   
+    "id":"123"
 }
 ```
 

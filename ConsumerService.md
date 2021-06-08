@@ -17,10 +17,7 @@
     "address" : "上海市杨浦区邯郸路220号",
     "mobile" : "12345678901",
     "email" : "12345678901@fudan.edu.cn",
-    "geoLocation" : {
-       "longitude":121.48 ,
-       "latitude":31.23
-    },
+    "area":"杨浦区"
 }
 ```
 
@@ -62,10 +59,7 @@
     "address" : "上海市杨浦区邯郸路220号",
     "mobile" : "12345678901",
     "email" : "12345678901@fudan.edu.cn",
-    "geoLocation" : {
-       "longitude":121.48 ,
-       "latitude":31.23
-    },
+    "area":"杨浦区"
   },
   "message": "OK"
 }
