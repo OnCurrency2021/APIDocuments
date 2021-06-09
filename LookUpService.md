@@ -188,3 +188,33 @@ JSON格式数据.
 
 ### 4. Order Service
 
+#### create data
+
+```
+{
+  "action":"CREATE",
+  "data": {
+    "serviceId":"123",
+    "providerId":"123",
+    "consumerId":"123",
+    "timeSlot":{
+       "start":"8:00",
+       "end":"12:00"
+    },
+    "cost":"200",
+    "status" : "active"
+  }
+}
+```
+
+#### update data
+
+```
+{
+  "action":"UPDATE",
+  "data": {
+    "status" : "finished"
+  }
+}
+```
+
