@@ -215,7 +215,7 @@ JSON格式数据.
 {
   "action":"UPDATE",
   "data": {
-    "orderId": "123",
+    "Id": "123",
     "status" : "finished"
   }
 }
