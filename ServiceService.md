@@ -14,9 +14,9 @@
 ```
 {
     "type" : "家政服务",
-    "providerId":"123"
+    "providerId":"123",
     "serviceArea" : [
-           "杨浦区"，
+           "杨浦区",
            "宝山区"
     ],
     "hourlyCost" : 50,
