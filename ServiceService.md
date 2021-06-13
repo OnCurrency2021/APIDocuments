@@ -46,7 +46,7 @@
 #### Request
 
 - Method: **GET**
-- URL: ```/v1.0/service?id={id}```
+- URL: ```/v1.0/service/{id}```
 - Headers:
 - Body:
 ```
