@@ -9,7 +9,7 @@
 #### Request
 - Method: **POST**
 - URL:  ```/v1.0/service
-- Headers：Content-Type:application/json
+- Headers：Content-Type:application/json;charset=utf-8
 - Body:
 ```
 {
