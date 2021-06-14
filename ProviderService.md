@@ -8,28 +8,38 @@
 
 #### Request
 - Method: **POST**
-- URL:  ```/v1.0/provider
+- URL:  ```/v1.0/provider```
 - Headers：Content-Type:application/json
 - Body:
 ```
 {
     "name" : "提供者",
     "mobile" : "12345678901",
-    "activeSine":"2021-06-08",
+    "activeSince":"2021-06-08",
 }
 ```
  
 #### Response
 - Body
-```
-{
-  "code": 200,
-  "data": {
-     "id":"123"
-  },
-  "message": "new provider has created"
-}
-```
+
+    - 成功创建服务提供者
+    ```
+    {
+      "code": 200,
+      "data": {
+         "id":"123"
+      },
+      "message": "Creating new service provider success!"
+    }
+    ```
+  
+    - 创建服务提供者失败
+    ```
+    {
+      "code": 1000,
+      "message": "Creating new service provider failed!"
+    }
+    ```
 
 ### 2.获取消费者
 
@@ -49,15 +59,24 @@
 
 #### Response
 - Body
-```
-{
-  "code": 200,
-  "data": {
-    "name" : "提供者",
-    "mobile" : "12345678901",
-    "activeSine":"2021-06-08",
-    "overallRating":5
-  },
-  "message": "OK"
-}
-```
+
+    - 存在对应id的服务提供者
+    ```
+    {
+      "code": 200,
+      "data": {
+        "name" : "提供者",
+        "mobile" : "12345678901",
+        "activeSince":"2021-06-08",
+      },
+      "message": "OK!"
+    }
+    ```
+  
+    - 不存在对应id的服务提供者
+    ```
+    {
+      "code": 1001,
+      "message": "No service provider found!"
+    }
+    ```

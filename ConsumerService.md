@@ -23,15 +23,24 @@
 
 #### Response
 - Body
-```
-{
-  "code": 200,
-  "data": {
-     "id":"123"
-  },
-  "message": "new consumer has created"
-}
-```
+    - 成功创建服务消费者
+    ```
+    {
+      "code": 200,
+      "data": {
+         "id":"123"
+      },
+      "message": "Creating new service consumer success!"
+    }
+    ```
+
+    - 创建服务消费者失败
+    ```
+    {
+      "code": 1000,
+      "message": "Creating new service consumer failed!"
+    }
+    ```
 
 ### 2.获取消费者
 
@@ -51,17 +60,26 @@
 
 #### Response
 - Body
-```
-{
-  "code": 200,
-  "data": {
-    "name" : "消费者",
-    "address" : "上海市杨浦区邯郸路220号",
-    "mobile" : "12345678901",
-    "email" : "12345678901@fudan.edu.cn",
-    "area":"杨浦区"
-  },
-  "message": "OK"
-}
-```
 
+    - 存在对应id的服务消费者
+    ```
+    {
+      "code": 200,
+      "data": {
+        "name" : "消费者",
+        "address" : "上海市杨浦区邯郸路220号",
+        "mobile" : "12345678901",
+        "email" : "12345678901@fudan.edu.cn",
+        "area":"杨浦区"
+      },
+      "message": "OK!"
+    }
+    ```
+  
+    - 不存在对应id的服务消费者
+    ```
+    {
+      "code": 1001,
+      "message": "No service consumer found!"
+    }
+    ```
