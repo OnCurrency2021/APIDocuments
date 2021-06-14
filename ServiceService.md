@@ -9,14 +9,14 @@
 #### Request
 - Method: **POST**
 - URL:  ```/v1.0/service
-- Headers：Content-Type:application/json
+- Headers：Content-Type:application/json;charset=utf-8
 - Body:
 ```
 {
     "type" : "家政服务",
-    "providerId":"123"
+    "providerId":"123",
     "serviceArea" : [
-           "杨浦区"，
+           "杨浦区",
            "宝山区"
     ],
     "hourlyCost" : 50,
@@ -46,7 +46,7 @@
 #### Request
 
 - Method: **GET**
-- URL: ```/v1.0/service?id={id}```
+- URL: ```/v1.0/service/{id}```
 - Headers:
 - Body:
 ```
