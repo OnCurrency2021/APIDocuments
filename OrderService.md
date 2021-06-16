@@ -8,7 +8,7 @@
 
 #### Request
 - Method: **POST**
-- URL:  ```/v1.0/order
+- URL:  `/v1.0/order` 
 - Headers：Content-Type:application/json
 - Body:
 ```
@@ -81,7 +81,7 @@
 
 #### Request
 - Method: **PUT**
-- URL:  ```/v1.0/order
+- URL:  `/v1.0/order` 
 - Headers：Content-Type:application/json
 - Body:
 ```
