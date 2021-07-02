@@ -13,14 +13,12 @@
 - Body:
 ```
 {
-    "type" : "家政服务",
-    "providerId":"123",
-    "serviceArea" : [
-           "杨浦区",
-           "宝山区"
-    ],
-    "hourlyCost" : 50,
+    "type" : "家政服务3",
+    "provider":"f21eca-uwqeqcqa1-c2312cas-k2e12cq",
+    "area": "上海市杨浦区",
+    "cost" : "50",
     "status" : "active",
+    "rating": "1"
 }
 ```
 
@@ -56,19 +54,13 @@
 - Body
 ```
 {
-  "code": 200,
-  "data": {
-    "type" : "家政服务",
-    "providerId":"123"
-    "serviceArea" : [
-           "杨浦区"，
-           "宝山区"
-    ],
-    "hourlyCost" : 50,
+    "id": "f21eca-uwqeqcqa1-c2312cas-k2e12cq"
+    "type" : "家政服务3",
+    "provider":"123",
+    "area": "上海市杨浦区",
+    "cost" : "50",
     "status" : "active",
-    "overallRating":4.6
-  },
-  "message": "OK"
+    "rating": "1"
 }
 ```
 
