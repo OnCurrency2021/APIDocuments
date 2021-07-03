@@ -16,10 +16,8 @@
     "serviceId":"123",
     "providerId":"123",
     "consumerId":"123",
-    "timeSlot":{
-       "start":"8:00",
-       "end":"12:00"
-    },
+    "startTime": "8:00",
+    "endTime": "12:00",
     "cost":"200",
     "status" : "active"
 }
@@ -64,10 +62,8 @@
     "serviceId":"123",
     "providerId":"123",
     "consumerId":"123",
-    "timeSlot":{
-       "start":"8:00",
-       "end":"12:00"
-    },
+    "startTime": "8:00",
+    "endTime": "12:00",
     "cost":"200",
     "status" : "active"
   },
