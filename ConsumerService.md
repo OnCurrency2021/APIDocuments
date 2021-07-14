@@ -8,7 +8,7 @@
 
 #### Request
 - Method: **POST**
-- URL:  ```/v1.0/consumer
+- URL:  ```/v1.0/consumer```
 - Headers：Content-Type:application/json
 - Body:
 ```
